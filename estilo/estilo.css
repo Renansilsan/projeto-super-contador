@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagem/foto-de-fundo.jpg);
+}
+
+header {
+    color: white;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0, 0.363);;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.363);
+}
+
+section > div#res {
+    margin-top: 15px;
+}
+
+input#txti, input#txtf, input#txtp {
+    border: solid rgba(0, 0, 0, 0.26);
+    border-radius: 7px;
+    margin-left: 5px;
+}
+
+section > div#dados > input#bot:hover {
+    background-color: lightgray;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+}
